@@ -1,0 +1,2 @@
+<li *ngFor="let hero of heroes$ | async" >
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" />
